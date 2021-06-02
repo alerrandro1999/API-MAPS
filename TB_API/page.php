@@ -8,7 +8,7 @@ if (isset($_POST['acao'])) {
               $saida = str_replace(' ', '+',$saida);    
               $destino = str_replace(' ', '+',$destino);  
 
-              $file = file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin='.$saida.'&destination='.$destino.'&key=AIzaSyBd3JsFG29zvgr-lZUmHTt-N-7hatLy4PY&callback=initMap&libraries=&v=weekly');
+              $file = file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin='.$saida.'&destination='.$destino.'&key=CHAVE-API&callback=initMap&libraries=&v=weekly');
 
               $teste = json_decode($file);
 
