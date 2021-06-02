@@ -1,0 +1,21 @@
+   
+      #map {
+        height: 500px;
+      }
+
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        color: white;
+      }
+
+      form{
+        padding: 50px;
+      }
+
+      button {
+       margin-top:  30px;
+      }
+ 
